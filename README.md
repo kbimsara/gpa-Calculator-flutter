@@ -118,3 +118,12 @@ lib/
   │   └── viewPage.dart
   └── main.dart
 ```
+
+## ⚠️ Important Notice
+**This application is designed for mobile platforms only (Android) and CANNOT run as a web application.**
+
+The reason for this limitation:
+- The app uses SQLite database through the `sqflite` package which is not supported in web browsers
+
+Please run this application on:
+- Android devices/emulators
